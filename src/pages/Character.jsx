@@ -40,7 +40,7 @@ const Character = () => {
               />
               <div class="ml-3 overflow-hidden">
                 <p class="text-sm font-medium text-slate-900">
-                  <Link to={`characters/${character.id}`}>
+                  <Link to={`${character.id}`}>
                     {character.full_name}
                   </Link>
                 </p>
